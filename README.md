@@ -6,7 +6,7 @@ I fitted the model using four R models from different packages: linear regressio
 
 The repository is organized as follows
 1. Load and preprocess data [here](main.R).
-2. Visualize the data using (point plots)[visualizations.R], [maps](maps.R) and (decision trees)[reg_trees.R]. I used the original dataset for visualizations and the preprocessed dataset to estimate the models.
+2. Visualize the data using [point plots](visualizations.R), [maps](maps.R) and [decision trees](reg_trees.R). I used the original dataset for visualizations and the preprocessed dataset to estimate the models.
 3. Estimate the [models](models.R). That is, fit the models, make predictions and compute confidence intervals for predictions.Choose the optimal amount of trees by cross validation for xgboost. Also, plot figures of the most important features chosen by the models. Estimate variance and confidence intervals using grf.
 
 A snapshot of names and versions of packages I used is available [here](packrat.loc).
